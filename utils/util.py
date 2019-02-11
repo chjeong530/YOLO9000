@@ -5,7 +5,7 @@ def ensure_dir(path):
     if not os.path.exists(path):
         os.makedirs(path)
 
-def non_max_suppresssion_fast(boxes, probs, threshold=0.5):
+def non_max_suppresssion(boxes, probs, threshold=0.5):
 
     '''
 
